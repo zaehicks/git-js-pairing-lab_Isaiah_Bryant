@@ -105,3 +105,17 @@ getExtention("README.md")     //returns ".md"
 ```
 
 14. Write a function `absoluteNineteen` to compute the absolute difference between a specified number and 19. Returns triple their absolute difference if the specified number is greater than 19.
+
+15. Write a function `switchLetters` that creates a new string from a given string changing the position of first and last characters. 
+```
+switchLetters("anne")         //return "enna"
+switchLetters("hello world")  //return "dello worlh"
+switchLetters("a")            //return "a"
+switchLetters("")             //return ""
+```
+
+16. Write a function `changeString` to replace every character in a given string with the character following it in the alphabet/
+```
+changeString("abc")             //return "bcd"
+changeString("helloworld")      //return "ifmmpxpsme"
+```
