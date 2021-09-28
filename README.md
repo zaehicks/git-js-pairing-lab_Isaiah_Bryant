@@ -23,9 +23,84 @@ The purpose of this lab is to get you and your partner familiar with `git`, spec
 
 ## Problems
 
+Be sure to test your functions as you write them! You can invoke the functions after they have been implemented or use `console.log` to print out their return value.
+
 1. Write a function `fiveToOneHundred` that console logs all numbers from 5 to 100.
 
-2. Write a function `multiplesOfThree` that console logs all odd numbers from 1 to 50 that is a multiple of 3.
+2. Write a function `multiplesOfThree` that console logs all numbers from 1 to 100 that is a multiple of 3.
 > Multiples of 3 are: `3, 6, 9, 12, 15, ...`
 
-3. Write a function ``
+3. Write a function `multiplesOfThreeOrFive` that console logs all numbers from 1 to 100 if that number is either a mulitple of 3 or a mutliple of 5.
+> `3, 5, 6, 9, 10, 12, 15, ...`
+
+4. Write a function `untilNum` that takes in an integer parameter and console logs all numbers from 1 to that number.
+```
+untilNum(5)    //prints out numbers 1 through 5
+untilNum(9)    //prints out numbers 1 through 9
+untilNum(42)   //prints out numbers 1 through 42
+```
+
+5. Write a function `multiply` that takes in two number parameters and **returns** their product.
+```
+multiply(2, 4)     //returns 8
+multiply(10, -5)   //returns -50
+multiply(3, 7.5)   //returns 22.5
+```
+
+6. Write a function `add` that takes in two number parameters and **returns** their sum. But if the two values are the same, return **triple their sum**!
+```
+add(2, 4)     //returns 6
+add(10, -5)   //returns 5
+add(3, 7.5)   //returns 10.5
+add(5, 5)     //returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
+add(6, 6)     //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that
+```
+
+7. Write a function `isNegative` that takes in a number parameter and **returns** `true` is the number is a negative value and `false` is the number is a positive value. 
+```
+isNegative(3)         //returns false
+isNegative(-2)        //returns true
+isNegative(Math.PI)   //returns false
+```
+
+8. Write a function `triangleArea` that takes in the height and base of a triangle and **returns** the [area of the triangle](https://www.mathsisfun.com/algebra/trig-area-triangle-without-right-angle.html). 
+```
+triangleArea(5, 7)    //returns 17.5
+triangleArea(6, 8)    //returns 24
+```
+
+9. Write a function `betweenTwentyAndFourty` that takes in a number parameter and checks whether a given integer is within 20 of 100. It **returns** `true` if it is and `false` if not.
+```
+betweenTwentyAndFourty(4)      //return false
+betweenTwentyAndFourty(21)     //return true
+betweenTwentyAndFourty(99)     //return true
+betweenTwentyAndFourty(101)    //return false
+```
+
+10. Write a function `largest` that takes in three number parameters and **returns** the largest of the values.
+```
+largest(4, 6, 8)        //returns 8
+largest(30, 22, 17)     //returns 30
+largest(41, 108, 86)    //returns 108
+```
+
+### Bonus
+
+11. Write a function `printTime` that prints out the current time in the format `HH:MM:ss`. Do not hard code the hour, minute, or seconds values.
+
+12. Write a function `isLeapYear` to determine whether a given year is a [leap year](https://www.rmg.co.uk/stories/topics/which-years-are-leap-years-can-you-have-leap-seconds#:~:text=To%20be%20a%20leap%20year,2028%20are%20all%20leap%20years.) in the Gregorian calendar.
+```
+isLeapYear(2000)    //returns true
+isLeapYear(1900)    //returns false
+isLeapYear(2020)    //returns true
+isLeapYear(1999)    //returns false
+```
+
+13. Write a function `getExtention` to get the extension of a filename.
+```
+getExtention("hello.txt")     //returns ".txt"
+getExtention("app.js")        //returns ".js"
+getExtention("README.md")     //returns ".md"
+```
+
+14. Write a function `absoluteNineteen` to compute the absolute difference between a specified number and 19. Returns triple their absolute difference if the specified number is greater than 19.
