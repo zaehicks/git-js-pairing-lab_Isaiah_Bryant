@@ -27,10 +27,10 @@ Be sure to test your functions as you write them! You can invoke the functions a
 
 1. Write a function `fiveToOneHundred` that console logs all numbers from 5 to 100.
 
-2. Write a function `multiplesOfThree` that console logs all numbers from 1 to 100 that is a multiple of 3.
+2. Write a function `multiplesOfThree` that console logs all positive numbers to 100 that is a multiple of 3.
 > Multiples of 3 are: `3, 6, 9, 12, 15, ...`
 
-3. Write a function `multiplesOfThreeOrFive` that console logs all numbers from 1 to 100 if that number is either a mulitple of 3 or a mutliple of 5.
+3. Write a function `multiplesOfThreeOrFive` that console logs all positive numbers to 100 if that number is either a mulitple of 3 or a mutliple of 5.
 > `3, 5, 6, 9, 10, 12, 15, ...`
 
 4. Write a function `untilNum` that takes in an integer parameter and console logs all numbers from 1 to that number.
