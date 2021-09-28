@@ -15,7 +15,7 @@ The purpose of this lab is to get you and your partner familiar with `git`, spec
 2. In the **forked repository**, Partner A needs to add Partner B as a [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository). This means that both groups members will have read and write (edit) access to the forked repo. 
 3. Both partners should `git clone` the forked repo to their AWS Cloud9 using SSH. 
 4. Partner A will drive first with Partner B being the navigator. Partner A will implement the first function, then stage, commit, and push the changes up to the remote repo (make sure you are in the correct folder in the terminal). 
-5. Double check that the remote repo on Github to ensure the latest commit was successfully pushed up. 
+5. Double check the remote repo on Github to ensure the latest commit was successfully pushed up. 
 6. Then, it will be Partner B's turn to drive and Partner A will be the navigator. Partner B needs to `git pull` down the latest commit (make sure you are in the correct folder in the terminal). Once they the code for the first function has been pulled down, Partner B will implement the second function, then push their changes up.
 7. Continue switching driver-navigator roles *for every function,* with Partner A implementing all the odd numbered questions and Partner B implementing the even numbers questions.
 
