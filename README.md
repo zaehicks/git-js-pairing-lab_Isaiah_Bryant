@@ -21,7 +21,7 @@ The purpose of this lab is to get you and your partner familiar with `git`, spec
 6. Then, it will be Partner B's turn to drive and Partner A will be the navigator. Partner B needs to `git pull` down the latest commit (make sure you are in the correct folder in the terminal). Once the the code for the first function has been pulled down, Partner B will **type out** the second function, then push their changes up.
 7. Continue switching driver-navigator roles *for every function,* with Partner A type out all the odd numbered questions and Partner B implementing the even numbers questions. Every time you push up a commit, your partner will need to pull down the changes to their local repo.
 8. Your group should be alternative commits like this example below:
-[image](./pairedprogramming.png)
+![image](./pairedprogramming.png)
 
 ## Problems
 
