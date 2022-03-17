@@ -10,7 +10,7 @@ The purpose of this lab is to get you and your partner familiar with `git`, spec
 
 ## Instructions
 
-> Remember, paired programming means both partner are always looking at, and working off of the same screen! When you are the driver, you group should be working off your computer. And when you switch, you should be working off your partner's computer. By doing so, you will get practice with push and pull using git!
+> Remember, [paired programming](https://en.wikipedia.org/wiki/Pair_programming#:~:text=Pair%20programming%20is%20an%20agile,two%20programmers%20switch%20roles%20frequently.) means both partner are always looking at, and working off of the same screen! When you are the driver, you group should be working off your computer. And when you switch, you should be working off your partner's computer. By doing so, you will get practice with push and pull using git!
 
 0. You will work in groups to implement various JavaScript functions.  
 1. One group member, Partner A, will [fork](https://guides.github.com/activities/forking/) this repository. Only one group member should fork the repo. Partner B does not need to fork anything.
