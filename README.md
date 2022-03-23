@@ -71,7 +71,7 @@ triangleArea(5, 7)    //returns 17.5
 triangleArea(6, 8)    //returns 24
 ```
 
-9. Write a function `betweenTwentyAndFourty` that takes in a number parameter and checks whether a given integer is within 20 of 100. It **returns** `true` if it is and `false` if not.
+9. Write a function `betweenTwentyAndFourty` that takes in a number parameter and checks whether a given integer is within 20 to 40. It **returns** `true` if it is and `false` if not.
 ```
 betweenTwentyAndFourty(4)      //return false
 betweenTwentyAndFourty(21)     //return true
