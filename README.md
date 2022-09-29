@@ -23,6 +23,62 @@ The purpose of this lab is to get you and your partner familiar with `git`, spec
 8. Your group should be alternating commits like this example below:
 ![image](./pairedprogramming.png)
 
+## Troubleshooting Tips
+
+Running into problems? Make sure you have done the following:
+
+### 0) Did you clone the same repository?
+
+You can check which remote repository you are connected to by running the following command from inside a Git directory:
+
+```
+cat remote -v
+```
+
+This will print out the remote repository location that we are using to `fetch`/`pull` changes from and `push` changes to. For example:
+
+```
+origin	https://github.com/benspector-mls/git-js-pairing-lab.git (fetch)
+origin	https://github.com/benspector-mls/git-js-pairing-lab.git (push)
+```
+
+Both partners should have the same urls for both `fetch` and `push`.
+
+### 1) Did you stage, commit, and push your code?
+
+You can always use `git status` to see if you have done these things.
+
+After completing a function, remember to stage, commit, and push your code! The commands might look like this:
+
+```
+git status
+git add index.js
+git commit -m "completed the fiveToOneHundred function"
+git push
+```
+
+### 2) Did you pull your partner's changes?
+
+Each time your partner pushes a new function to the repository, make sure to use `git pull` to download those changes!
+
+### 3) Did you accidentally cause a merge conflict?
+
+If you `git push` your code before pulling down your partner's code, you will likely cause a merge conflict. No fear — we're prepared for this.
+
+You will likely be presented with three options for how you can configure your repository to handle `git pull` merging (merge, rebase, fast-forward only). 
+
+For now, we recommend using the first option `git config pull.rebase false`. To avoid running this command EVERY time you first encounter a merge conflict in a repo, run the following commands:
+
+```
+git config --global pull.rebase false
+git pull
+```
+
+Then, resolve the conflicts by doing the following:
+1. In your code editor, determine which code you want to keep and delete the rest, including the conflict markers.
+2. Then, stage, commit, and push your updated files.
+3. Finally, make sure that your partner pulls down the new merge commit that you created.
+
 ## Problems
 
 Be sure to test your functions as you write them! You can invoke the functions after they have been implemented or use `console.log` to print out their return value.
