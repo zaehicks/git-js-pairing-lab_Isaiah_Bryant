@@ -32,7 +32,7 @@ Running into problems? Make sure you have done the following:
 You can check which remote repository you are connected to by running the following command from inside a Git directory:
 
 ```
-cat remote -v
+git remote -v
 ```
 
 This will print out the remote repository location that we are using to `fetch`/`pull` changes from and `push` changes to. For example:
