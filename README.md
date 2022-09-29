@@ -14,7 +14,7 @@ The purpose of this lab is to get you and your partner familiar with `git`, spec
 
 0. You will work in groups to implement various JavaScript functions.  
 1. One group member, Partner A, will [fork](https://guides.github.com/activities/forking/) this repository. Only one group member should fork the repo. Partner B does not need to fork anything.
-2. In the **forked repository**, Partner A needs to add Partner B as a [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository). This means that both groups members will have read and write (edit) access to the forked repo. 
+2. In the **forked repository**, Partner A needs to add Partner B as a [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository). This means that both groups members will have read and write (edit) access to the forked repo. Partner A will share the URL for the repository with partner B.
 3. Both partners should `git clone` the forked repo to their AWS Cloud9 using SSH. 
 4. Partner A will drive first with Partner B being the navigator. Partner A will **type out** the first function while Partner B **reviews their code**. The navigator may also make suggestions for improvements. Stage, commit, and push the changes up to the remote repo (make sure you are in the correct folder in the terminal). 
 5. Double check the remote repo on Github to ensure the latest commit was successfully pushed up. 
