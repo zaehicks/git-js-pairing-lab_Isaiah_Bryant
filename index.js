@@ -60,3 +60,15 @@ const add = (num1, num2) => {
 console.log(add(6,6))
 
 
+const add = (num1, num2) => {
+    if(num1 === num2) {
+    return (num1 + num2) * 3 
+} else {
+    return num1 + num2
+}
+
+} 
+
+console.log(add(6,6))
+
+
