@@ -5,7 +5,7 @@ const fiveToOneHundred = () => {
     }
     
 }
-fiveToOneHundred();
+//fiveToOneHundred();
 //test
 
 
@@ -17,4 +17,14 @@ const multiplesOfThree = () =>{
       }
     }
   };
-  multiplesOfThree()
+ // multiplesOfThree()
+
+  const untilNum = (num1) =>{
+    for( let i= 1; i <= num1; i++)
+    console.log(i)
+  }
+
+  untilNum(10)
+  
+
+  
