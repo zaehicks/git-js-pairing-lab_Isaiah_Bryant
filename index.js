@@ -18,7 +18,11 @@ const multiplesOfThree = () =>{
       }
     }
   };
+
   
+
+  //multiplesOfThree()
+
 
   // #3 
   const multiplesOfThreeOrFive = () => {
@@ -28,7 +32,7 @@ const multiplesOfThree = () =>{
         }
       }
     }
-    
+
 multiplesOfThreeOrFive();
 
  // //multiplesOfThree()
@@ -39,4 +43,6 @@ multiplesOfThreeOrFive();
   }
 
   untilNum(10)
-  
+
+
+
