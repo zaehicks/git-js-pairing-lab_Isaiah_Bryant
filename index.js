@@ -18,7 +18,11 @@ const multiplesOfThree = () =>{
       }
     }
   };
+
   
+
+  //multiplesOfThree()
+
 
   // #3 
   const multiplesOfThreeOrFive = () => {
@@ -28,7 +32,7 @@ const multiplesOfThree = () =>{
         }
       }
     }
-    
+
 multiplesOfThreeOrFive();
 
  // //multiplesOfThree()
@@ -40,6 +44,7 @@ multiplesOfThreeOrFive();
 
   untilNum(10)
 
+
 const add = (num1, num2) => {
     if(num1 === num2) {
     return (num1 + num2) * 3 
@@ -50,4 +55,5 @@ const add = (num1, num2) => {
 } 
 
 console.log(add(6,6))
+
 
