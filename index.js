@@ -46,8 +46,10 @@ const multiply = (num1, num2) => {
     return num1 * num2
 }
 
-console.log(multiply(5, 2))
+//console.log(multiply(5, 2))
 
+
+// #6
 const add = (num1, num2) => {
     if(num1 === num2) {
     return (num1 + num2) * 3 
@@ -57,18 +59,25 @@ const add = (num1, num2) => {
 
 } 
 
-console.log(add(6,6))
+//console.log(add(6,6))
 
 
-const add = (num1, num2) => {
-    if(num1 === num2) {
-    return (num1 + num2) * 3 
-} else {
-    return num1 + num2
+// #7
+const isNegative = (num) => {
+  return num < 0;
 }
 
-} 
+//console.log(isNegative(10))
 
-console.log(add(6,6))
 
+// #9
+const betweenTwentyAndFourty = (num) => {
+  if (num >= 20 && num <= 40) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+//console.log(betweenTwentyAndFourty(40))
 
