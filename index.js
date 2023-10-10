@@ -70,14 +70,13 @@ const isNegative = (num) => {
 //console.log(isNegative(10))
 
 
-//console.log(betweenTwentyAndFourty(40))
 
 // #8
 const triangleArea = (base, height) =>{
     const area = (base * height) / 2;
      return area;
    }
-   console.log(triangleArea())
+   //console.log(triangleArea(5,7))
    
 
 // #9
@@ -88,15 +87,20 @@ const betweenTwentyAndFourty = (num) => {
     return false;
   }
 }
+
+//console.log(betweenTwentyAndFourty(40))
  
   // #10
 const largest = (num1, num2, num3) => {
-    if (num1 < num2 && num1 < num3) {
+    if (num1 > num2 && num1 > num3) {
       return num1;
-    } else if (num2 < num1 && num2 < num3) {
+    } else if (num2 > num1 && num2 > num3) {
       return num2;
     } else {
       return num3;
     }
   };
+
+  console.log(largest(20,15,13));
+  
   
